@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    scroll-behavior: smooth;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button {
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .climbers{
+      display: flex;
+  }
+  .character{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+      width:30%;
+      background-color: brown;
+      padding: 10px;
+      border: solid 5px black;
+      border-radius: 20px;
+      
+  }
+  .person{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width:30%;
+    background-color: green;
+    border: solid 5px black;
+      border-radius: 20px;
+  }
+  .skyrim{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+  }
+  .imgC{
+      width: 20vw;
+      object-fit: cover;
+      object-position: center;
+  }
+  .imgS{
+       width: 20vw;
+       object-fit: cover;
+      object-position: center;
+  }
